@@ -14,7 +14,7 @@ function setup() {
   cols = Math.floor(windowWidth / cellWidth);
   rows = Math.floor(windowHeight / cellHeight);
   createCanvas(800, 800);
-  frameRate(1);
+  frameRate(2);
   capture = createCapture(VIDEO);
   capture.size(800, 800);
 }
