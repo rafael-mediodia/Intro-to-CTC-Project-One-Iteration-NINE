@@ -29,11 +29,9 @@ function draw() {
       let y = (j + 0.5) * cellHeight;
 
       let word = words[wordIndex];
-      let colorIndex = (i + j) % colors.length;
-      let color = colors[colorIndex];
+      let color = random(colors);
 
       textFont(font);
-      fill(color);
       textSize(46);
       textAlign(CENTER);
       noStroke();
@@ -45,10 +43,10 @@ function draw() {
         }
       }
 
-      wordIndex = (wordIndex + 1) % words.length;
+     
     }
   }
-
+  wordIndex = (wordIndex + 1) % words.length;
   text('[ACCURATE IDENTIFIER]', 400, 750);
 }
 
