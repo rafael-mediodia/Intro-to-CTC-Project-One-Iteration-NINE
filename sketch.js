@@ -17,6 +17,7 @@ function setup() {
   frameRate(2);
   capture = createCapture(VIDEO);
   capture.size(800, 800);
+  capture.hide();
 }
 
 function draw() {
