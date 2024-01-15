@@ -1,8 +1,8 @@
 let cellWidth = 800,
   cellHeight = 800;
 let rows, cols;
-let words = ['if', 'you', 'are', 'reading', 'this', 'you', 'probably', 'have', 'some', 'tie', 'to', 'risd', 'dont', 'you?'];
-let colors = ['#002AFF', '#1856FF', '#3357FF', '#3B47FF'];
+let words = ['If', 'you', 'are', 'reading', 'this', 'you', 'probably', 'have', 'some', 'tie', 'to', 'RISD', 'dont', 'you?'];
+let colors = ['#002AFF'];
 let font;
 let wordIndex = 0;
 
